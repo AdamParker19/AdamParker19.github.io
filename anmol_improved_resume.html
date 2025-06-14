@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmol Patel | Senior Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="resume-container">
+        <div class="download-buttons no-print">
+            <button class="download-btn" onclick="downloadAsPDF()">📄 Download PDF</button>
+            <button class="download-btn" onclick="downloadAsWord()">📝 Download DOCX</button>
+            <button class="download-btn" onclick="printResume()">🖨️ Print</button>
+        </div>
+
+        <div class="name">ANMOL PATEL</div>
+        <div class="contact-info">
+            anmolpatel668@gmail.com | <a href="https://www.linkedin.com/in/anmol-patel-8b2879175/">LinkedIn</a> | <a href="https://github.com/AdamParker19">GitHub</a> | +91-9131100661
+        </div>
+
+        <div class="section-title">Professional Summary</div>
+        <div class="professional-summary">
+            Versatile Senior Software Engineer with 4+ years of experience across fintech, sports, and enterprise platforms. Skilled in problem-solving complex technical challenges and applying core software engineering principles to build and maintain scalable systems serving 1M+ users. Demonstrated ability to seamlessly transition between diverse technology stacks while consistently delivering high-performance solutions. Expertise spans microservices architecture, distributed systems, payment processing, and database optimization with a strong foundation in system design and algorithmic thinking.
+        </div>
+
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div>
+                <div class="skill-category">
+                    <h4>Programming Languages:</h4>
+                    <p>Python, Java, JavaScript, TypeScript, C++, GoLang, C#, PHP</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Backend Frameworks:</h4>
+                    <p>Node.js, Express.js, Django, Spring Boot, Nest.js</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Databases & Storage:</h4>
+                    <p>PostgreSQL, MongoDB, MySQL, Redis, CassandraDB, AWS S3, Redis</p>
+                </div>
+                <div class="skill-category">
+                    <h4>AI & Machine Learning:</h4>
+                    <p>LLMs, Generative AI, MCP, AI, Machine Learning</p>
+                </div>
+            </div>
+            <div>
+                <div class="skill-category">
+                    <h4>Cloud & DevOps:</h4>
+                    <p>AWS (EC2, Lambda, API Gateway, S3, DynamoDB), Docker, Kubernetes, CI/CD, Linux Command Line</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Frontend & APIs:</h4>
+                    <p>ReactJS, Next.js, GraphQL, gRPC, REST APIs, Socket.io, HTML, CSS, Bootstrap</p>
+                </div>
+                <div class="skill-category">
+                    <h4>System Design:</h4>
+                    <p>Microservices, Distributed Systems, Apache Kafka, RabbitMQ, Event-driven Architecture, SOLID principles, Low Level Design, High Level Design, Design Patterns, Object-Oriented Programming (OOPs), Data Structures and Algorithms</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">Work Experience</div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Senior Software Engineer</div>
+                    <div class="company">Airpay Payment Services</div>
+                </div>
+                <div class="location-date">
+                    Gurugram, India<br>Oct 2024 - Present
+                </div>
+            </div>
+            <ul>
+                <li><strong>Architected scalable fintech microservices</strong> using Node.js, PostgreSQL, AWS, and Kubernetes, supporting 500K+ users across emerging African markets with 99.9% uptime</li>
+                <li><strong>Engineered core loan processing modules</strong> (notifications, rollovers, partial payments, auto-debits, refunds) improving system modularity and reducing feature deployment time by 60%</li>
+                <li><strong>Independently built partial payment feature</strong> for loans and created an algorithm for calculating optimal loan tenures, partial payment amounts, and associated fees and penalties, delivered within a week timeline</li>
+                <li><strong>Developed automated cron service</strong> delivering 2M+ customized EMI SMS reminders monthly, boosting on-time loan repayments by 25%</li>
+                <li><strong>Implemented centralized logging system</strong> across distributed services, cutting debugging time by 90% and improving system reliability</li>
+                <li><strong>Led emergency production deployments</strong> for government compliance updates, preventing $2M+ in potential regulatory fines while maintaining 100% uptime</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Freelance Software Engineer</div>
+                    <div class="company">Upwork</div>
+                </div>
+                <div class="location-date">
+                    Remote, India<br>Jan 2024 - Oct 2024
+                </div>
+            </div>
+            <ul>
+                <li><strong>Migrated legacy cybersecurity platform</strong> from PHP to modern Node.js/Express stack on AWS, improving site performance by 30% and reducing maintenance overhead</li>
+                <li><strong>Developed cryptocurrency payment system</strong> supporting Bitcoin and altcoin subscription payments, expanding client revenue streams by 40%</li>
+                <li><strong>Implemented AES-256 encryption</strong> for sensitive user data across databases and logs, enhancing data security and privacy protection</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Product Engineer</div>
+                    <div class="company">Buzz Sports and Entertainment Pvt. Limited</div>
+                </div>
+                <div class="location-date">
+                    Gurugram, India<br>Sep 2022 - Nov 2023
+                </div>
+            </div>
+            <ul>
+                <li><strong>Transformed monolithic fantasy sports platform</strong> SportsBuzz11 into microservices architecture, improving scalability for 2M+ active users</li>
+                <li><strong>Refactored payment systems</strong> from JavaScript to TypeScript, reducing production bugs by 45% and improving code maintainability</li>
+                <li><strong>Integrated Juspay payment gateway</strong> independently, enabling seamless transactions worth $10M+ annually</li>
+                <li><strong>Implemented TDS deduction logic</strong> in production as emergency compliance requirement, saving organization $5M+ in potential regulatory fines</li>
+                <li><strong>Automated KYC verification</strong> using IDfy API integration, increasing user onboarding completion rate to 90% and automating previously manual KYC verification process saving organization $1000/month approximately</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Software Engineer</div>
+                    <div class="company">Red Dot Innovative</div>
+                </div>
+                <div class="location-date">
+                    Singapore<br>Dec 2021 - Sep 2022
+                </div>
+            </div>
+            <ul>
+                <li><strong>Developed inventory management portal</strong> for Singapore-based logistics companies, managing 50K+ inventory items with real-time tracking</li>
+                <li><strong>Built RESTful APIs</strong> and database schemas using Node.js and PostgreSQL, achieving sub-200ms response times for critical operations</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Full Stack Developer Intern</div>
+                    <div class="company">PropReturns (YC-backed Startup)</div>
+                </div>
+                <div class="location-date">
+                    Mumbai, India<br>Apr 2021 - Jun 2021
+                </div>
+            </div>
+            <ul>
+                <li><strong>Contributed to early-stage proptech startup</strong> that later secured funding and was featured in Y Combinator, demonstrating ability to build scalable solutions in fast-paced startup environments</li>
+                <li><strong>Developed property management portal</strong> using ReactJS and AWS services, streamlining lead management for real estate teams and contributing to the platform's growth trajectory</li>
+                <li><strong>Built foundational features</strong> that supported the company's evolution from startup to funded venture, showcasing impact on business-critical systems</li>
+            </ul>
+        </div>
+
+        <div class="section-title">Projects</div>
+        <div class="project">
+            <div class="project-title">Chance - Random Chat Application</div>
+            <p><strong>Tech Stack:</strong> Node.js, Socket.io, MongoDB, React<br>
+            Built real-time chat application matching users randomly or by shared interests. Implemented WebSocket connections for instant messaging, user matching algorithms, and moderation features. Deployed on AWS with auto-scaling capabilities.</p>
+        </div>
+
+        <div class="section-title">Education</div>
+        <div class="education-item">
+            <div class="degree">Bachelor of Technology in Computer Science</div>
+            <div class="university">University Institute of Technology, Madhya Pradesh</div>
+            <div class="location-date">Bhopal, India | Aug 2017 - Aug 2021</div>
+        </div>
+
+        <div class="section-title">Certifications</div>
+        <div class="education-item">
+            <div class="degree">AWS Certified Cloud Practitioner (CLF-C02)</div>
+            <div class="university">Amazon Web Services</div>
+            <div class="location-date">March 2023</div>
+        </div>
+    </div>
+
+    <script>
+        function downloadAsPDF() {
+            const buttons = document.querySelector('.download-buttons');
+            buttons.style.display = 'none';
+            window.print();
+            setTimeout(() => buttons.style.display = 'block', 1000);
+        }
+        
+        function downloadAsWord() {
+            const buttons = document.querySelector('.download-buttons');
+            buttons.style.display = 'none';
+            const htmlContent = document.documentElement.outerHTML;
+            const blob = new Blob([htmlContent], { type: 'application/msword' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'Anmol_Patel_SDE2_Resume.doc';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            setTimeout(() => buttons.style.display = 'block', 1000);
+        }
+        
+        function printResume() {
+            window.print();
+        }
+    </script>
+</body>
+</html>
