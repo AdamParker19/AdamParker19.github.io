@@ -50,6 +50,12 @@
                 margin: 0;
                 size: letter;
             }
+
+            /* Hide browser default header/footer with URL */
+            html {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
         }
 
         /* Header */
